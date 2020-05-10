@@ -11,8 +11,8 @@
         // *** Update or verify the following values. ***
         // **********************************************
 
-        let subscriptionKey = 'INSERT YOUR KEY HERE';
-        let endpoint = 'INSERT YOUR ENDPOINT URL HERE';
+        let subscriptionKey = 'e43b82c592cc401b98c8df8693741317';
+        let endpoint = 'https://southeastasia.api.cognitive.microsoft.com/customvision/v3.0/Prediction/409b3233-8457-4433-b44b-988041a6d28e/classify/iterations/Iteration1/url';
         if (!subscriptionKey) { throw new Error('Set your environment variables for your subscription key and endpoint.'); }
         
         // Display the image.
@@ -55,8 +55,7 @@
 Enter the URL to an image, then click the <strong>Analyze image</strong> button.
 <br><br>
 Image to analyze:
-<input type="text" name="inputImage" id="inputImage"
-    value="https://cdn.shopify.com/s/files/1/2336/3219/products/shutterstock_336818993meyer_x850.jpg" />
+<input type="text" name="inputImage" id="inputImage" value="" />
 <button onclick="processImage()">Analyze image</button>
 <br><br>
 <div id="wrapper" style="width:1020px; display:table;">
